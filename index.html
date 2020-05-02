@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intenship Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <div id="container">
+     <div class="form-wrap">
+        <h1>Internship Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="FirstName">FirstName</label>
+                <input type="text" placeholder= "Firstname" id="FirstName" >
+            </div>
+            <div class="form-group">
+                <label for="Surname">Surname</label>
+                <input type="text" placeholder= "Surname" id="Surname" >
+            </div>
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label>
+                <input type="date" placeholder="dob" id="dob">
+            </div>
+            <div class="form-select">
+                <label for="Sex">Sex</label>
+                <p>
+                <input type="radio" name="Sex" option="male" /> Male
+                </p>
+                <p>
+                <input type="radio" name="Sex" option="female" /> Female
+                </p>
+                <p>
+                <input type="radio" name="Sex" option="others" />Others
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="Track">Internship Track
+                    <select>
+                        <option value="disabled selected hidden">Select Track</option>
+                        <option value ="FrontEnd">FrontEnd</option>
+                        <option value ="BackEnd">BackEnd</option>
+                        <option value ="UI/UX Design">UI/UX Design</option>
+                        <option value ="Software Quality Assurance">Software Quality Assurance</option>
+                        <option value ="Devops Engineer">Devops Engineer</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for ="Goals">Goals</label>
+                <textarea placeholder="What do you hope to achieve after internship???" rows="10" cols="30"></textarea>
+            </div>
+        </form>
+        </div>
+     </div>
+    </div>    
+</body>
+</html>

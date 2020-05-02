@@ -1,0 +1,56 @@
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1{
+            text-align: center;
+            
+        }
+
+        body{
+            font-family: sans-serif, fantasy;
+            background: #344a72;
+            color:white;
+            line-height:1.8;
+        }
+
+        #container{
+            margin: 30px auto;
+            max-width: 400px;
+            padding: 20px;
+        }
+
+        .form-wrap{
+            background: #fff;
+            padding: 15px 25px;
+            color: #333;
+        }
+
+        .form-wrap .form-group{
+            margin-top: 15px;
+        }
+
+        .form-wrap .form-group label{
+            width: 100%;    
+        }
+
+        .form-wrap .form-select{
+            margin-top: 15px;
+            padding: 10px;
+        }
+        .form-wrap .form-group select{
+            padding: 10px;
+            width: 100%;
+            border: #333 1px solid;
+            border-radius:20px ;
+
+        }
+
+        .form-wrap .form-group input{
+            width: 100%;
+            padding: 10px;
+            border: #333 1px solid;
+            border-radius: 20px;
+        }
